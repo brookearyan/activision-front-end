@@ -1,0 +1,152 @@
+/*general app settings*/
+
+* {
+  box-sizing: border-box;
+}
+
+html, body  {
+background-color: #e4e4ef;
+
+}
+label, input {
+  font-family: 'Signika Negative', sans-serif;
+  background-color: #e4e4ef;
+  font-size: 20 px;
+
+}
+
+form {
+  margin : 5% 25% 0% 25%;
+  width: 50%;
+  webkit-box-sizing: inherit;
+
+}
+
+.App {
+
+  font-family: 'Signika Negative', sans-serif;
+  background-color: #e4e4ef;
+  color: #434350;
+
+}
+/**/
+
+/*path events/id cards*/
+.ui.segment {
+  background-color: #e4e4ef;
+  box-shadow: white 1px 1px;
+}
+/**/
+.ui.inverted.menu {
+  background-color: #434350;
+  padding-left: 35px;
+
+}
+
+/*App.js styling ("header"/topper of all pages)*/
+.logo {
+  font-family: 'Caveat Brush', cursive;
+  padding: 30px 0px 0px 40px;
+  margin: 0px;
+  font-size: 80px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  color: #1A1A46;
+  text-shadow: white 1px 1.5px;
+}
+
+.welcome{
+  font-family: 'Roboto', sans-serif;
+  padding: 0px 15px 20px 130px;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: 2.5px;
+  color: #92929C;
+  text-shadow: black .25px .25px;
+
+
+}
+.topper {
+  color: #11233;
+}
+/**/
+
+/*nav bar items*/
+.item {
+  font-family: 'Viga', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: 2px;
+
+}
+/**/
+
+img {
+  margin-top: 30px;
+}
+a:hover {
+  text-decoration: none;
+  font-weight: normal;
+  color: black;
+}
+
+a, a:active {
+  color: #92929C;
+
+}
+
+/*user profile text/titles*/
+p {
+  font-family: 'Handlee', cursive;
+  font-size: 20px;
+  margin: 0px;
+  padding: 3px;
+  color: #92929C;
+
+
+}
+
+h3, header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  letter-spacing: 1px;
+  padding: 10px;;
+  margin: 0px;
+}
+/**/
+.text-sx-right h3 {
+  margin: 20px 0px 30px 40px;
+}
+
+.ui.items>.item>.content>.header:not(.ui) {
+  font-size: 24px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.text-sx-right p {
+  padding: 5px 5px 5px 30px;
+
+}
+.content {
+  margin: 15px;
+
+
+}
+
+.sketched.row {
+  margin-top: 30px;
+}
+
+.ui.button {
+  color: #fff;
+  font-weight: normal;
+  background-color: grey;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: 'Viga', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
